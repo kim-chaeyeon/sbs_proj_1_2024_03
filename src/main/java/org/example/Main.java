@@ -28,7 +28,7 @@ public class Main {
                 System.out.println("내용 : ");
                 String boby = sc.nextLine();
 
-                System.out.printf("글이 생성되었습니다.\n", id);
+                System.out.printf("%d번 글이 생성되었습니다.\n", id);
             }
             else if (cmd.equals("article list")) {
                 System.out.println("게시물이 없습니다.");
